@@ -8,7 +8,6 @@ exAssignment += 5;
 var carPrice = 2000;
 var tirePrice = 500;
 var detailPrice = 700;
-var wordVar = rlkajdslks; 
 
 {
     let name = "Steve"
@@ -19,5 +18,5 @@ function letExample() {
     return name;
 }
 
-document.getElementById("demo").innerHTML = name + " is my name.";
-document.getElementById("demo-second").innerHTML = constExample + " is a constant variable";
+// document.getElementById("demo").innerHTML = name + " is my name.";
+// document.getElementById("demo-second").innerHTML = constExample + " is a constant variable";
