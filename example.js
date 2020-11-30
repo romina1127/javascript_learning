@@ -9,12 +9,14 @@ var carPrice = 2000;
 var tirePrice = 500;
 var detailPrice = 700;
 
+var isGrassGreen = true;
+
 {
     let name = "Steve"
 }
 
 function letExample() {
-    let name = "Steve";
+    var name = "Steve";
     return name;
 }
 
