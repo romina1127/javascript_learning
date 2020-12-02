@@ -8,9 +8,9 @@ var exAssignment = 5;
 exAssignment += 5;  // += operator example on how to change/manipulate variables
 
 let goodExample = 50;  // Examples on how to label variables properly.  you can start with letters
-let $dollarExample = 40;
-let _underscoreExample = 2;
-let number5757example = 100;
+let $dollarExample = 40;  // You can start with $
+let _underscoreExample = 2;  // You can start with _
+let number5757example = 100;  // Numbers can be in variable names, but you cannot start with them
 
 var carPrice = 2000;  
 var tirePrice = 500;
@@ -33,11 +33,10 @@ function letExample() {
     return name;
 }
 
-console.log(goodExample*$dollarExample)
-console.log(number5757example+$dollarExample)
-console.log(goodExample/_underscoreExample)
-console.log(goodExample%$dollarExample)
-console.log(number5757example^_underscoreExample)
+console.log("example of goodExample times $dollarExample" + goodExample*$dollarExample)
+console.log("example of number5757example plus $dollarExample" + number5757example+$dollarExample)
+console.log("example of goodExample divided by _underscoreExample" + goodExample/_underscoreExample)
+console.log("example of goodExample reminder from being divided by $dollarExample" + goodExample%$dollarExample)
 
 // document.getElementById("demo").innerHTML = name + " is my name.";
 // document.getElementById("demo-second").innerHTML = constExample + " is a constant variable";
