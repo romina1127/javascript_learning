@@ -33,10 +33,10 @@ function letExample() {
     return name;
 }
 
-console.log("example of goodExample times $dollarExample" + goodExample*$dollarExample)
-console.log("example of number5757example plus $dollarExample" + number5757example+$dollarExample)
-console.log("example of goodExample divided by _underscoreExample" + goodExample/_underscoreExample)
-console.log("example of goodExample reminder from being divided by $dollarExample" + goodExample%$dollarExample)
+console.log("example of goodExample times $dollarExample " + goodExample*$dollarExample)
+console.log("example of number5757example plus $dollarExample " + number5757example+$dollarExample)
+console.log("example of goodExample divided by _underscoreExample " + goodExample/_underscoreExample)
+console.log("example of 50 reminder from being divided by 40 " + goodExample%$dollarExample)
 
 // document.getElementById("demo").innerHTML = name + " is my name.";
 // document.getElementById("demo-second").innerHTML = constExample + " is a constant variable";
