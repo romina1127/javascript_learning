@@ -34,3 +34,10 @@ console.log(fizzBuzz())
         console.log('Not divisble by 3 nor 5')
     }
 } */
+
+let age = document.getElementsByName("inputValue").value;
+if (age < 21) {
+    document.querySelector("p").innerHTML = "You are too young"
+} else {
+    document.querySelector("p").innerHTML - "Go ahead"
+}
